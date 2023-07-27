@@ -28,7 +28,7 @@ Input data:
 - sense_maps (RO x PE x NO_C x Slices) with CAIPI shifts
 
 
-![Output](images/res3.png)
+![Output](images/res1.png)
 
  
 
