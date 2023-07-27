@@ -14,7 +14,7 @@ Demirel, Omer Burak, et al. "20-fold accelerated 7T fMRI using referenceless sel
 
 Demirel, Omer Burak, et al. "Improved simultaneous multi-slice functional MRI using self-supervised deep learning." 2021 55th Asilomar Conference on Signals, Systems, and Computers. IEEE, 2021.
 
-This implementation is for 20-fold acceleration (5-fold SMS and 4-fold in-plane acceleration fMRI at 7T) with physics-guided self-supervised deep learning reconstruction. To train, please use main.py and the model that has been used in the paper can be found under savedModels folder. 
+This implementation is for 20-fold acceleration (5-fold SMS and 4-fold in-plane acceleration fMRI at 7T) with physics-guided self-supervised deep learning reconstruction. To train, please use main.py and the model that has been used in the paper can be found under the savedModels folder. 
 
 Here is the data structure:
 RO:          # of readout lines,
@@ -26,6 +26,7 @@ Time-frames: # of time-frames phases,
 Input data:
 - kspace (RO x PE x NO_C x Dynamics)
 - sense_maps (RO x PE x NO_C x Slices) with CAIPI shifts
+
 
 ![Output](images/res3.png)
 
