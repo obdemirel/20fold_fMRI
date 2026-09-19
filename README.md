@@ -748,7 +748,7 @@ If you use this code, please cite:
 ```text
 Burak Demirel, PhD
 University of Minnesota
-do
+doi:
 ```
 
 
